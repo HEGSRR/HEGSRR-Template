@@ -6,7 +6,7 @@
 - Example of a [Registered Replication Report](https://osf.io/s3hfr/) from the Reproducibility Project: Psychology
 - Published materials from [registered replication projects published by the Association of Psychological Science](https://www.psychologicalscience.org/publications/replication/ongoing-projects)
 - The replication recipes developed based on Brandt et al. (2014) that are available through the OSF.  
-- {Transparency and Openess Promotion (TOP) Guidelines}(https://www.cos.io/initiatives/top-guidelines)
+- [Transparency and Openess Promotion (TOP) Guidelines](https://www.cos.io/initiatives/top-guidelines)
 
 
 ## References
