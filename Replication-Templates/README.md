@@ -7,6 +7,7 @@
 - Published materials from [registered replication projects published by the Association of Psychological Science](https://www.psychologicalscience.org/publications/replication/ongoing-projects)
 - The replication recipes developed based on Brandt et al. (2014) that are available through the OSF.  
 - [Transparency and Openess Promotion (TOP) Guidelines](https://www.cos.io/initiatives/top-guidelines)
+- [Replication Policy](https://royalsocietypublishing.org/rsos/replication-studies) of The Royal Society
 
 
 ## References
