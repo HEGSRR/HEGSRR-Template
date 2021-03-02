@@ -10,6 +10,7 @@ This folder structure can be used to organize a reproduction and/or replication 
     |- data            # raw data, which are not changed once created
     |  +- raw/         # raw data, will not be altered
     |  +- cleaned/     # cleaned data, will not be altered once created
+    |  +- scratch/        # temporary files that can be safely deleted or lost
     |
     |-procedure
     |  +- code/        # any programmatic code, clearly named and commented
@@ -18,8 +19,6 @@ This folder structure can be used to organize a reproduction and/or replication 
     |  +- figures/     # graphs, likely designated for manuscript
     |  +- maps/        # maps, likely designated for manuscript  
     |  +- images/      # diagrams, images, and other non-graph graphics
-    |
-    |- scratch/        # temporary files that can be safely deleted or lost
     |
     |- README.md       # the top level description of content
     |- study.Rmd       # executable Rmarkdown , if applicable
