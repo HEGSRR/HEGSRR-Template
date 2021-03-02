@@ -10,6 +10,7 @@ Template documents and packages for study pre-registration, reproductions, and r
 - [Transparency and Openess Promotion (TOP) Guidelines](https://www.cos.io/initiatives/top-guidelines)
 - [Replication Policy](https://royalsocietypublishing.org/rsos/replication-studies) of The Royal Society
 - [Example of a template workflow for species distribution models](https://odmap.wsl.ch/) that the authors converted into a web-based report generator 
+- [ReScience article template](https://github.com/ReScience/template) for reproduction studies
 
 
 ## References
