@@ -1,19 +1,19 @@
+# Ignore Microsoft Word system files
 *.tmp
-
-# Word temporary
 ~$*.doc*
-
-# Word Auto Backup File
 Backup of *.doc*
 
-# Excel temporary
-~$*.xls*
+# Ignore contents of private folder, with the exception of its readme file
+private/**
+!private/readme.md
 
-# Excel Backup File
-*.xlk
+# Ignore contents of scratch folder, with the exception of its readme file
+scratch/**
+!scratch/readme.md
 
-# PowerPoint temporary
-~$*.ppt*
+# Ignore common R files
+.Rproj.user
+.Rhistory
+.RData
 
-# Visio autosave temporary files
-*.~vsd*
+
