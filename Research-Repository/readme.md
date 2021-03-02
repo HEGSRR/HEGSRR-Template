@@ -24,8 +24,6 @@ This folder structure can be used to organize a reproduction and/or replication 
     |- study.Rmd       # executable Rmarkdown , if applicable
     |- Makefile        # executable Makefile, if applicable
     |- study.Rproj     # RStudio project, if applicable
-    |- datapackage.json # metadata for the (input and output) data files
-
 
 ## Reproducible research practices
 This folder template follows closely the excellent [rr-init template](https://github.com/Reproducible-Science-Curriculum/rr-init), which in turn follows Nobel [(2009)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424). We have also incorporated ideas from [Gandrud (2015)](http://christophergandrud.github.io/RepResR-RStudio/) and Camerer ([2016](https://osf.io/pfdyw/), [2018](https://osf.io/bzm54/)). A few key practices include:
