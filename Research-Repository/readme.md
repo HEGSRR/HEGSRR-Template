@@ -6,6 +6,7 @@ This folder structure can be used to organize a reproduction and/or replication 
     Reproduction of <Study Name>
     |- docs/           # study documentation
     |  +- report/      # reproduction plan, reproduction report
+    |  +- manuscript/  # manuscript components
     |
     |- data            # raw data, which are not changed once created
     |  +- raw/         # raw data, will not be altered
