@@ -1,5 +1,5 @@
 # Protocols
 
-Add non-computational protocols and research procedures here.
+Store any non-computational protocols and research procedures here.
 
 
