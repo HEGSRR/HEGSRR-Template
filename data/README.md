@@ -1,5 +1,5 @@
 # Data
-Store all of your research data. Complete the [metadata.csv](metadata.csv) file indexing each data file, including the fields:
+Store all of your research data. Complete the [data_metadata.csv](data_metadata.csv) file indexing each data file, including the fields:
 
 - path
 - name
