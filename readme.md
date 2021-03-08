@@ -17,14 +17,16 @@ An overview of the folder structure of this repository is provided below. The `R
     |  +- raw/         # raw data, will not be altered
     |  +- derived/     # derived data, will not be altered once created
     |  +- scratch/     # temporary files that can be safely deleted or lost
+    |  +- metadata/    # documentation of metadata
     |
     |-procedure
     |  +- code/        # any programmatic code, clearly named and commented
+    |  +- protocols/   # any non-computational protocols
     |
     |- results         # all output from workflows and analyses
     |  +- figures/     # graphs, likely designated for manuscript
     |  +- maps/        # maps, likely designated for manuscript  
-    |  +- images/      # diagrams, images, and other non-graph graphics
+    |  +- other/       # diagrams, images, and other non-graph graphics
     |
     |- README.md       # the top level description of content
     |- study.Rmd       # executable Rmarkdown , if applicable
