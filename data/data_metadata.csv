@@ -1,3 +1,3 @@
-path,name,format,sources
-data/raw/private/rawfile1.csv,Name of data file 1,csv,
-data/clean/public/cleanDataFile1.csv,Clean public version of rawfile1.csv,csv,data/raw/private/rawfile1.csv
+path,name,format,sources,metadata
+raw/private/rawfile1.csv,Name of data file 1,csv,,rawfile1_variables.pdf
+raw/derived/public/cleanDataFile1.csv,Clean public version of rawfile1.csv,csv,data/raw/private/rawfile1.csv,
