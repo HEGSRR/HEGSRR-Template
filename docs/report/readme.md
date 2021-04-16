@@ -13,3 +13,4 @@ Other examples of registered replication reports are available from the [Reprodu
 ## Outstanding Template Revisions
 - [ ] Create a separate template for use in teaching that retains the bulk of the original study information section. I want to think this section for research oriented use as it is very redundant with the procedure section and the original document.  
 - [ ] Clarify the purpose of any workflow diagram
+- [ ] Create an accompanying document that outlines how to use the template in teaching (e.g., It is suggested to split the document and present it to students in sections, which they work through successively). Accompanying tutorial videos for teachers?
