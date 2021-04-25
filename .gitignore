@@ -15,5 +15,6 @@ scratch/**
 .Rproj.user
 .Rhistory
 .RData
+.RDataTmp
 
 
