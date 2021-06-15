@@ -4,11 +4,11 @@ Store all of your research data in subdirectories here. It is recommended that r
 
 Complete the [data_metadata.csv](data_metadata.csv) file indexing each **raw** and **derived** data file, including the fields:
 
-- `path`: the path from data folder, e.g. `raw\private\`
+- `path`: the path from data folder, e.g., `raw\private\`
 - `name`: the file name
-- `format`: the file format, e.g. shapefile, geopackage, CSV, geotiff
+- `format`: the file format, e.g., shapefile, geopackage, CSV, geotiff
 - `sources`: sources may be the original data provider for raw data, or the raw files from which data was derived for derived data.
 - `metadata`: a list of metadata files for this data source, stored in the `data\metadata` folder
 - `status`: which may be `included` for data included in the repository, `acquire` for data that must be downloaded, accessed, or created seperately, or `derive` for data that must be derived by procedures and/or code.
 
-Researchers are strongly encouraged to include additional metadata in the `metadata` folder.
+Researchers are strongly encouraged to include additional metadata in the `metadata` folder. Further information about the procedures used to create data with 'status = derive' should be maintained in the [procedure_metadata.csv](../procedure/procedure_metadata.csv).
