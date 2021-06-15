@@ -10,7 +10,7 @@ A template repository that contains a folder structure, template documents, and 
 1. pre-register, document, and share original research, or
 2. document, organize, and share a reproduction and/or replication of original research.
 
-An overview of the folder structure of this repository is provided below. The `readme.md` file contained in each folder provides details about the purpose of that folder and suggestions on its use. The authors should maintain the `data/data_metadata.csv` file to list all raw and derived data, the `procedure/procedure_metadata.csv` file with an ordered list of all procedures and/or code, and the `results/results_metadata.csv` folder with a list of all figures, tables, and other media produced by the research.
+An overview of the folder structure of this repository is provided below. The `readme.md` file contained in each folder provides details about the purpose of that folder and suggestions on its use. The authors should maintain the [data/data_metadata.csv](data/data_metadata.csv) file to list all raw and derived data, the [procedure/procedure_metadata.csv](procedure/procedure_metadata.csv) file with an ordered list of all procedures and/or code, and the [results/results_metadata.csv](results/results_metadata.csv) folder with a list of all figures, tables, and other media produced by the research.
 The `docs/report/` folder contains templates to facilitate 1) the pre-registration of research plans, and 2) report the complete details of original, reproduction, or replication studies.
 
 ## Repository Overview
