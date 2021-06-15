@@ -8,7 +8,7 @@ Complete the [data_metadata.csv](data_metadata.csv) file indexing each **raw** a
 - `file_name`: the file name
 - `format`: the file format, e.g., shapefile, geopackage, CSV, geotiff
 - `sources`: sources may be the original data provider for raw data, or the raw files from which data was derived for derived data.
-- `metadata`: a list of metadata files for this data source, stored in the `data\metadata` folder
+- `metadata`: list of metadata files for this data source, stored in the `data\metadata` folder. These may include `XML` files, data dictionaries, licenses or attributions, user guides, etc.
 - `status`: which may be `included` for data included in the repository, `acquire` for data that must be downloaded, accessed, or created seperately, or `derive` for data that must be derived by procedures and/or code.
 - `date_saved`: date when the file was last saved
 

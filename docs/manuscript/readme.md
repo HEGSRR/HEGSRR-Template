@@ -1,2 +1,3 @@
 # Manuscript
-Folder containing compiled manuscript for submission for publication.
+
+Store compiled manuscript for submission and publication here.
