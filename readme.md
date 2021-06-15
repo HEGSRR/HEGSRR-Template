@@ -1,5 +1,6 @@
 # Title of Study
-** Insert names of the original auhtors in Kedron, P.J. format **
+
+> Insert names of the original auhtors in Kedron, P.J. format
 
 ### Abstract
 
@@ -59,6 +60,7 @@ The `docs/report/` folder contains templates to facilitate 1) the pre-registrati
     |- study.Rproj     # RStudio project, if applicable
 
 ## Reproducible Research Practices
+
 Every research project is different. This repository is designed to serve as a flexible guide capable of structuring work completed throughout the lifecycle of different types of research projects. No matter the project type, a few key suggested practices when using this repository include:
 
 - Register your pre-analysis plan with a service like Open Science Foundation at [https://osf.io/](https://osf.io/) or an equivalent and add crosslinks between your research repository and the pre-registered plan.
@@ -71,4 +73,5 @@ Every research project is different. This repository is designed to serve as a f
 - Document and/or package the computational environment in the `procedure\environment` folder.
 
 ## References
+
 The structure of this repository closely follows the excellent [rr-init](https://github.com/Reproducible-Science-Curriculum/rr-init) repository, which in turn follows Nobel [(2009)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424). We have also incorporated structural ideas from [Gandrud (2015)](http://christophergandrud.github.io/RepResR-RStudio/) and Camerer et al. ([2016](https://osf.io/pfdyw/), [2018](https://osf.io/bzm54/)).  Reference information related to the **Pre-registration Template** and **Replication Report Template** is included in the `/docs` folder.
