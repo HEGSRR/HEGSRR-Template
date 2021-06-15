@@ -1,10 +1,8 @@
 # Title of Study
-### Author(s) authors of this study 
+< Insert names of the original auhtors in Kedron, P.J. format >
+
 ### Abstract
-
-Write a short abstract of the study. If the study is a reproduction or replication study, the full citation of the original study should be included here with digital object identifier (DOI) links to the paper and, if applicable, any preregistration, code or data repositories.
-
-If this study has been pre-registered 
+Briefly describe the study. If the study is a reproduction or replication, the full citation of the original study should be included here with digital object identifier (DOI) to the study and, if applicable, any preregistration, code or data repositories.
 
 # Templates for Reproducible and Replicable Research
 A template repository that contains a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research. The folder structure presented here can be used to
