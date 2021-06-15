@@ -1,14 +1,22 @@
+# Title of Study
+### Author(s) authors of this study 
+### Abstract
+
+Write a short abstract of the study. If the study is a reproduction or replication study, the full citation of the original study should be included here with digital object identifier (DOI) links to the paper and, if applicable, any preregistration, code or data repositories.
+
+If this study has been pre-registered 
+
 # Templates for Reproducible and Replicable Research
 A template repository that contains a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research. The folder structure presented here can be used to
 
 1. pre-register, document, and share original research, or
 2. document, organize, and share a reproduction and/or replication of original research.
 
-An overview of the folder structure of this repository is provided below. The `README.md` and `index.csv` files contained in each folder provide details about the structure of that folder and suggestions on its use. The `docs/report/` folder contains templates to facilitate 1) the pre-registration of original research, and 2) report the complete details of attempted reproductions and replications of original research.
+An overview of the folder structure of this repository is provided below. The `README.md` and `index.csv` files contained in each folder provide details about the structure of that folder and suggestions on its use. The `docs/report/` folder contains templates to facilitate 1) the pre-registration of research plans, and 2) report the complete details of original, reproduction, or replication studies.
 
 ## Repository Overview
 
-    Reproduction of <Study Name>
+    <Study Name>
     |- docs/           # study documentation
     |  +- report/      # reproduction plan, reproduction report
     |  +- manuscript/  # manuscript components
@@ -29,12 +37,10 @@ An overview of the folder structure of this repository is provided below. The `R
     |  +- other/       # diagrams, images, and other non-graph graphics
     |
     |- readme.md       # the top level description of content
-    |- study.Rmd       # executable Rmarkdown , if applicable
-    |- Makefile        # executable Makefile, if applicable
     |- study.Rproj     # RStudio project, if applicable
 
 ## Reproducible Research Practices
-Every research project is different. This repository is designed to serve as a flexible guide capable of structuring work completed throughout the lifecycle of different types of research project. No matter the project type, a few key suggested practices when using this repository include:
+Every research project is different. This repository is designed to serve as a flexible guide capable of structuring work completed throughout the lifecycle of different types of research projects. No matter the project type, a few key suggested practices when using this repository include:
 
 - Keeping original, raw data in the `data/raw` folder. Do not alter that file during data analysis.
 - Keeping data derived from the raw data (e.g. subsets) separate from the raw data in the `data/derived` folder.
