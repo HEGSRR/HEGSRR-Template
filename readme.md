@@ -73,7 +73,7 @@ Every research project is different. This repository is designed to serve as a f
 - Keeping Exploratory/experimental outputs in the `data/scratch` folder. *Files in this folder should be able to be deleted without negatively impacting the project*.  
 - Limiting manual changes to data. *Conduct as much data processing and analysis as possible with code*.
 - Maintain well-commented and human-readable code, e.g. following the [tidyverse style guide for R](https://style.tidyverse.org/) or the [PEP 8 Style Guide for Python](https://www.python.org/dev/peps/pep-0008/)
-- Creating a top-level `Makefile` or Rmarkdown file that documents computational work in executable form and/or clear comments and instructions in the header of each procedure and code file and good descriptions in the `procedure_metadata.csv` 
+- Creating a top-level `Makefile` or Rmarkdown file that documents computational work in executable form and/or clear comments and instructions in the header of each procedure and code file and good descriptions in the `procedure_metadata.csv`
 - Document and/or package the computational environment in the `procedure\environment` folder.
 
 ## References
@@ -82,7 +82,7 @@ The structure of this repository closely follows the excellent [rr-init](https:/
 
 ### Pre-registration Template
 
-A pre-registration template for studies involving geographic analyses. This template is modelled on similar templates developed by the [Open Science Framework (OSF)](http://osf.io/x5w7h), [AsPredicted](https://osf.io/fnsb6/), the [prereg package](https://github.com/crsh/prereg), and Van den Akker et al. [(2019)](http://doi:10.31234/osf.io/hvfmr). The OSF template is our most direct source. This template can be used to transparently plan and pre-register original geographic research.
+A pre-registration template for studies involving geographic analyses. This template is modelled on similar templates developed by the [Open Science Framework (OSF)](http://osf.io/x5w7h), [AsPredicted](https://osf.io/fnsb6/), the [prereg package](https://github.com/crsh/prereg), and Van den Akker et al. [(2019)](http://doi:10.31234/osf.io/hvfmr). The OSF template is our most direct source. This template can be used to transparently plan and pre-register original geographic research. [Cite the OSF preregistration template and the licenses](https://osf.io/preprints/metaarxiv/epgjd/)
 
 ### Reproduction and Replication Template
 
