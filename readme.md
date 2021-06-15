@@ -40,6 +40,7 @@ The `docs/report/` folder contains templates to facilitate 1) the pre-registrati
     |- docs/           # study documentation
     |  +- report/      # reproduction plan, reproduction report
     |  +- manuscript/  # manuscript components
+    |  +- presentation/ # presentation materials
     |
     |- data            # raw data, which are not changed once created
     |  +- raw/         # raw data, will not be altered
@@ -48,12 +49,13 @@ The `docs/report/` folder contains templates to facilitate 1) the pre-registrati
     |  +- metadata/    # documentation of metadata
     |
     |-procedure
+    |  +- environment  # details of the computational environment
     |  +- code/        # any programmatic code, clearly named and commented
     |  +- protocols/   # any non-computational protocols
     |
     |- results         # all output from workflows and analyses
     |  +- figures/     # graphs, likely designated for manuscript
-    |  +- maps/        # maps, likely designated for manuscript  
+    |  +- tables/      # tables, likely designated for manuscript  
     |  +- other/       # diagrams, images, and other non-graph graphics
     |
     |- readme.md       # the top level description of content
