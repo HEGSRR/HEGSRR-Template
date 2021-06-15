@@ -1,6 +1,6 @@
 # Results
 
-This directory is for storing final research ouputs, e.g. figures, tables, or other media for publications and presentations.
+Store final research ouputs, e.g. figures, tables, or other media for publications and presentations.
 
 Complete the [results_metadata.csv](results_metadata.csv) file indexing each results file, including the fields:
 
