@@ -24,6 +24,8 @@ The contents of this repository are outlined in three tables:
 - Procedures: [procedure/procedure_metadata.csv](procedure/procedure_metadata.csv)
 - Results: [results/results_metadata.csv](results/results_metadata.csv)
 
+If you are using RStudio, the .Rproject should be saved in the root of this repository. E.g. see the `r_project.rproj` file.
+
 # Templates for Reproducible and Replicable Research
 
 A template repository that contains a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research. The folder structure presented here can be used to
