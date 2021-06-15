@@ -1,8 +1,3 @@
-# Ignore Microsoft Word system files
-*.tmp
-~$*.doc*
-Backup of *.doc*
-
 # Ignore contents of derived private folder, with the exception of its readme file
 data/derived/private/**
 !readme.md
@@ -15,13 +10,18 @@ data/raw/private/**
 data/scratch/**
 !readme.md
 
+# Ignore Microsoft Word system files
+*.tmp
+~$*.doc*
+Backup of *.doc*
+
 # Ignore common R files
 .Rproj.user
 .Rhistory
 .RData
 .RDataTmp
 
-# Jupyter Notebook
+# Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
 # General MacOS files
