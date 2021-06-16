@@ -12,29 +12,30 @@ The `docs/report/` folder contains templates to facilitate 1) the pre-registrati
 ## Repository Overview
 
     <Study Name>
-    |- docs/           # study documentation
-    |  +- report/      # reproduction plan, reproduction report
-    |  +- manuscript/  # manuscript components
-    |  +- presentation/ # presentation materials
+    |- docs/                # study documentation
+    |  +- report/           # reproduction plan, reproduction report
+    |  +- manuscript/       # manuscript components
+    |  +- presentation/     # presentation materials
     |
-    |- data            # raw data, which are not changed once created
-    |  +- raw/         # raw data, will not be altered
-    |  +- derived/     # derived data, will not be altered once created
-    |  +- scratch/     # temporary files that can be safely deleted or lost
-    |  +- metadata/    # documentation of metadata
+    |- data                 # raw data, which are not changed once created
+    |  +- raw/              # raw data, will not be altered
+    |  +- derived/          # derived data, will not be altered once created
+    |  +- scratch/          # temporary files that can be safely deleted or lost
+    |  +- metadata/         # documentation of metadata
     |
     |-procedure
-    |  +- environment  # details of the computational environment
-    |  +- code/        # any programmatic code, clearly named and commented
-    |  +- protocols/   # any non-computational protocols
+    |  +- environment/      # details of the computational environment
+    |  +- code/             # any programmatic code, clearly named and commented
+    |  +- protocols/        # any non-computational protocols
     |
-    |- results         # all output from workflows and analyses
-    |  +- figures/     # graphs, likely designated for manuscript
-    |  +- tables/      # tables, likely designated for manuscript  
-    |  +- other/       # diagrams, images, and other non-graph graphics
+    |- results              # all output from workflows and analyses
+    |  +- figures/          # graphs, likely designated for manuscript
+    |  +- tables/           # tables, likely designated for manuscript  
+    |  +- other/            # diagrams, images, and other non-graph graphics
     |
-    |- readme.md       # the top level description of content
-    |- study.Rproj     # RStudio project, if applicable
+    |- readme.md            # description of the study
+    |- template_readme.md   # description of repository design and references
+    |- r_rpoject.rproj      # RStudio project, if applicable
 
 ## Reproducible Research Practices
 
