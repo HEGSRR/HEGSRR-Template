@@ -24,4 +24,4 @@ The contents of this repository are outlined in three tables:
 - Procedures: [procedure/procedure_metadata.csv](procedure/procedure_metadata.csv)
 - Results: [results/results_metadata.csv](results/results_metadata.csv)
 
-The [template_readme.md](template_readme.md) readme file contains more information on structure and rationale of this research template repository, as well as important references and licenses.
+The [template_readme.md](template_readme.md) file contains more information on structure and rationale of this research template repository, as well as important references and licenses.
