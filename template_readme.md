@@ -36,7 +36,7 @@ The `docs/report/` folder contains templates to facilitate 1) the pre-registrati
     |
     |- readme.md            # description of the study
     |- template_readme.md   # description of repository design and references
-    |- r_rpoject.rproj      # RStudio project, if applicable
+    |- r_rpoject.rproj      # the RStudio project should be saved in the root directory, if applicable
 
 ## Reproducible Research Practices
 
