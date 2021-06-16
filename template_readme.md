@@ -1,10 +1,11 @@
 # Template for Reproducible and Replicable Research
 
-A template repository that contains a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research.
+This template repository that contain a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research. The main [readme.md](readme.md) contains information about the research study.
+
 The folder structure presented here can be used to:
 
-1. pre-register, document, and share original research, or
-2. document, organize, and share a reproduction and/or replication of original research.
+1. pre-register, document, and share original research in a reproducible manner, or
+2. document and share a reproduction and/or replication of original research.
 
 An overview of the folder structure of this repository is provided below. The `readme.md` file contained in each folder provides details about the purpose of that folder and suggestions on its use. The authors should maintain the [data/data_metadata.csv](data/data_metadata.csv) file to list all raw and derived data, the [procedure/procedure_metadata.csv](procedure/procedure_metadata.csv) file with an ordered list of all procedures and/or code, and the [results/results_metadata.csv](results/results_metadata.csv) folder with a list of all figures, tables, and other media produced by the research.
 The `docs/report/` folder contains templates to facilitate 1) the pre-registration of research plans, and 2) report the complete details of original, reproduction, or replication studies.
