@@ -1,4 +1,4 @@
-# Templates for Reproducible and Replicable Research
+# Template for Reproducible and Replicable Research
 
 A template repository that contains a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research.
 The folder structure presented here can be used to:
