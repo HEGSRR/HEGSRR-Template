@@ -19,7 +19,7 @@ Backup of *.doc*
 .Rproj.user
 .Rhistory
 .RData
-.RDataTmp
+.RDataTmp*
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints
