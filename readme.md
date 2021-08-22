@@ -1,12 +1,12 @@
 # Title of Study
 
-> Insert names of the original auhtors in Kedron, P.J. format
+> Insert names of the original authors in Kedron, P.J. format
 
 ## Abstract
 
 > Briefly describe the study. If the study is a reproduction or replication, the full citation of the original study should be included here with digital object identifier (DOI) to the study and, if applicable, any preregistration, code or data repositories. Delete this instruction from the final repository.
 
-## Respository Documents
+## Repository Documents
 
 > Link your reports, manuscripts, presentations, publication DOIs, preregistrations, etc. here. Delete this instruction and unused list items from your final repository. Adjust the file names and paths and add additional items as necessary.
 
