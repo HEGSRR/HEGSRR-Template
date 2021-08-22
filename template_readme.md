@@ -20,9 +20,13 @@ The `docs/report/` folder contains templates to facilitate 1) the pre-registrati
     |  +- manuscript/       # manuscript components
     |  +- presentation/     # presentation materials
     |
-    |- data                 # raw data, which are not changed once created
-    |  +- raw/              # raw data, will not be altered
-    |  +- derived/          # derived data, will not be altered once created
+    |- data                 # study data
+    |  - raw/               # raw data, should not be altered
+    |    +- public/         # public data with version control
+    |    +- private/        # private data with no version control
+    |  +- derived/          # derived data
+    |    +- public/         # public data with version control
+    |    +- private/        # private data with no version control
     |  +- scratch/          # temporary files that can be safely deleted or lost
     |  +- metadata/         # documentation of metadata
     |
