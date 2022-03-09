@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this template, please cite it as below."
+authors:
+- family-names: "Kedron"
+  given-names: "Peter"
+  orcid: "https://orcid.org/0000-0002-1093-3416"
+- family-names: "Holler"
+  given-names: "Joseph"
+  orcid: "https://orcid.org/0000-0002-2381-2699"
+title: "Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences"
+version: 0.1
+doi:
+date-released: 2021-08-22
+url: "https://github.com/HEGSRR/HEGSRR-Template"
