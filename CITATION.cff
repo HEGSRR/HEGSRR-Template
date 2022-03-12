@@ -9,7 +9,7 @@ authors:
   orcid: "https://orcid.org/0000-0002-2381-2699"
 title: "Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences"
 version: 0.1
-doi:
+doi: 10.17605/OSF.IO/5FGMC
 date-released: 2021-08-22
 url: "https://github.com/HEGSRR/HEGSRR-Template"
 license: BSD 3-Clause
@@ -23,6 +23,6 @@ preferred-citation:
     given-names: "Joseph"
     orcid: "https://orcid.org/0000-0002-2381-2699"
   title: "Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences"
-  doi:
+  doi: 10.17605/OSF.IO/5FGMC
   year: 2021
   url: "https://github.com/HEGSRR/HEGSRR-Template"
