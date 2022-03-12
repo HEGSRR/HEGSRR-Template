@@ -2,7 +2,7 @@
 
 This template Git repository contains a folder structure, template documents, and best practice suggestions for conducting reproducible geographic research. The main [readme.md](readme.md) contains information about the research study.
 
-The template is distrubted with the [MIT License](LICENSE). Cite Kedron, PJ and Holler J (2021) *Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences* https://github.com/HEGSRR/RR-Template.
+The template is distributed with the [BSD 3-Clause License](LICENSE). Cite Kedron, PJ and Holler J (2021) *Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences* https://github.com/HEGSRR/RR-Template.
 
 The folder structure presented here can be used to:
 
