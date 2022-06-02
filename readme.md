@@ -2,7 +2,7 @@
 
 This study is a reproduction/replication of:
 
-> Insert full citation to original study
+> Insert full citation to original study to be reproduced or replicated. Remove these lines (3-5) if the compendium is for an original study.
 
 ## Abstract
 
