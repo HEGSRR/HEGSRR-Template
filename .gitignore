@@ -10,10 +10,13 @@ data/raw/private/**
 data/scratch/**
 !readme.md
 
-# Ignore Microsoft Word system files
+# Ignore Microsoft Office system files
 *.tmp
 ~$*.doc*
 Backup of *.doc*
+~$*.ppt*
+~$*.xls*
+*.xlt
 
 # Ignore common R files
 .Rproj.user
