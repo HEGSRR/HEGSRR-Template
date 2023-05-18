@@ -23,6 +23,7 @@ Backup of *.doc*
 .Rhistory
 .RData
 .RDataTmp*
+.Rapp.history
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints
@@ -79,3 +80,6 @@ $RECYCLE.BIN/
 # Geopackage temporary files
 *.gpkg-shm
 *.gpkg-wal
+
+# Icloud
+*.icloud
