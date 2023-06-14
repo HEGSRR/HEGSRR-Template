@@ -10,8 +10,10 @@ This study is a reproduction/replication of:
 
 ## Authors
 
+- First Name, Last Name*
 - First Name, Last Name
-- First Name, Last Name
+
+*Corresponding Author
 
 ## Repository Documents
 
@@ -32,4 +34,15 @@ The contents of this repository are outlined in three tables:
 - Results: [results/results_metadata.csv](results/results_metadata.csv)
 
 The [template_readme.md](template_readme.md) file contains more information on the design of this template and references used in the design.
-The [Template_LICENSE](Template_LICENSE) file provides the BSD 3-Clause license for using this template. 
+The [Template_LICENSE](Template_LICENSE) file provides the BSD 3-Clause license for using this template.
+
+## Other Project Metadata
+
+| Metadata Element | Value |
+| :---: | :---: |
+| Language | English |
+| Funding | ... |
+
+| Coverage (Temporal) | ... |
+| Coverage (Spatial) | ... |
+| Date | ... |
