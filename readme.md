@@ -12,8 +12,8 @@ A graphical abstract of the study could also be included as an image here.
 
 ### Contributors
 
-- First Name Last Name*, @githubname, email address, affiliated institution
-- First Name Last Name,, @githubname, email address, affiliated institution
+- First Name Last Name*, @githubname, email address, affiliated institution(s)
+- First Name Last Name, @githubname, email address, affiliated institution(s)
 
 \* Corresponding author and creator
 
@@ -41,11 +41,11 @@ A graphical abstract of the study could also be included as an image here.
 - `Preprint`:
 - `Conference Presentation`:
 - `Publication`:
-- `Relation`: Identifier links to other related research elements, e.g. the OSF repository, preprints,
+- `...`:
 
 ### Metadata for access
 
-- `Rights`: BSD-3 License: [LICENSE](LICENSE)
+- `Rights`: [LICENSE](LICENSE): BSD 3-Clause "New" or "Revised"
 - `Resource type`: Collection
 - `Resource language`: English
 - `Conforms to`: Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences, DOI:[10.17605/OSF.IO/W29MQ](https://doi.org/10.17605/OSF.IO/W29MQ )
