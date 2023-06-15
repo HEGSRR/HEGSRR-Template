@@ -1,4 +1,4 @@
-Directory,File Name,Purpose
+path,name,purpose
 code,script1.R,download and preprocess data
 protocol,survey_irb.pdf,Institutional review board protocol for survey sampling and instrument
 protocol,mapworkshop.pdf,participatory mapping workshop protocol

@@ -1,48 +1,78 @@
 # Title of Study
 
-This study is a reproduction/replication of:
+### Description
 
-> Insert full citation to original study to be reproduced or replicated. Remove these lines (3-5) if the compendium is for an original study.
+Write a brief abstract about your research project.
+If the project is a reproduction or replication study, include the full citation with a statement
+This study is a *reproduction/replication* of:
 
-## Abstract
+> citation to prior study
 
-> Briefly describe the study. If the study is a reproduction or replication, the full citation of the original study should be included here with digital object identifier (DOI) to the study and, if applicable, any preregistration, code or data repositories. Delete this instruction from the final repository.
+A graphical abstract of the study could also be included as an image here.
 
-## Authors
+### Contributors
 
-- First Name, Last Name*
-- First Name, Last Name
+- First Name Last Name*, @githubname, email address, affiliated institution
+- First Name Last Name,, @githubname, email address, affiliated institution
 
-*Corresponding Author
+\* Corresponding author and creator
 
-## Repository Documents
+### Funding
 
-> Link your reports, manuscripts, presentations, publication DOIs, preregistrations, etc. here. Delete this instruction and unused list items from your final repository. Adjust the file names and paths and add additional items as necessary.
+- Funder Name:
+- Award Title:
+- Award info URI (web address):
+- Award number:
 
-- Preregistration: https://osf.io/my_study
-- Publication: https://doi.org/my_study
+### Metadata for discovery
+
+- `Date created`: date when project was started
+- `Date modified`: date of most recent revision
+- `Subject`: select from a controlled vocabulary
+- `Tags`: select a few keywords, separated by commas. This is a feature compatible with GitHub, OSF, and Journal Articles, but is not a Dublin Core element.
+- `Coverage (geographic)`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
+- `Coverage (temporal)`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
+
+### Related to
+
+- `OSF Project`:
+- `Pre-analysis Registration`:
+- `Post-analysis Report Registration`:
+- `Preprint`:
+- `Conference Presentation`:
+- `Publication`:
+- `Relation`: Identifier links to other related research elements, e.g. the OSF repository, preprints,
+
+### Metadata for access
+
+- `Rights`: BSD-3 License: [LICENSE](LICENSE)
+- `Resource type`: Collection
+- `Resource language`: English
+- `Conforms to`: Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences, DOI:[10.17605/OSF.IO/W29MQ](https://doi.org/10.17605/OSF.IO/W29MQ )
+
+### Compendium structure and contents
+
+This research compendium is structured with four main directories:
+
+- `data`: contains subdirectories for `raw` data and `derived` data.
+- `docs`: contains subdirectories for `manuscript`, `presentation`, and `report`
+- `procedure`: contains subdirectories for `code` or software scripts, information about the computational `environment` in which the research was conducted, and non-code research `protocols`
+- `results`: contains subdirectories for `figures`, formatted data `tables`, or `other` formats of research results.
+
+The data, procedures, and results of this repository are outlined in three tables:
+- Data: [data/data_metadata.csv](data/data_metadata.csv)
+- Procedures: [procedure/procedure_metadata.csv](procedure/procedure_metadata.csv)
+- Results: [results/results_metadata.csv](results/results_metadata.csv)
+
+Important **documents** include:
 - Pre-analysis plan: [docs/report/preanalysis.pdf](docs/report/preanalysis.pdf)
 - Study report: [docs/report/report.pdf](docs/report/report.pdf)
 - Manuscript: [docs/manuscript/manuscript.pdf](docs/manuscript/manuscript.pdf)
 - Presentation: [docs/presentation/presentation.pdf](docs/presentation/presentation.pdf)
 
-## Repository Contents
-
-The contents of this repository are outlined in three tables:
-- Data: [data/data_metadata.csv](data/data_metadata.csv)
-- Procedures: [procedure/procedure_metadata.csv](procedure/procedure_metadata.csv)
-- Results: [results/results_metadata.csv](results/results_metadata.csv)
+#### Compendium reference
 
 The [template_readme.md](template_readme.md) file contains more information on the design of this template and references used in the design.
 The [Template_LICENSE](Template_LICENSE) file provides the BSD 3-Clause license for using this template.
-
-## Other Project Metadata
-
-| Metadata Element | Value |
-| :---: | :---: |
-| Language | English |
-| Funding | ... |
-
-| Coverage (Temporal) | ... |
-| Coverage (Spatial) | ... |
-| Date | ... |
+To cite the template, please use [template_reference.bib](template_reference.bib) or:
+> Kedron, P., & Holler, J. (2023). Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences. https://doi.org/10.17605/OSF.IO/W29MQ
