@@ -1,65 +1,207 @@
----
-title: "Analysis plan: A reproduction study"
-author: "FirstName LastName, FName Surname"
-date: "June 19, 2023"
----
+# Title of Study : Pre-analysis Registration
 
-# Title
+### Authors
 
-Author1 First Name, Author1 Last Name, Author1 Affiliation   
-Author2 First Name, Author2 Last Name, Author2 Affiliation
-...
-Author3 First Name, Author3 Last Name, Author3 Affiliation
+- First Name Last Name\*, email address, @githubname, ORCID link, affiliated institution(s)
+- First Name Last Name, email address, @githubname, ORCID link, affiliated institution(s)
 
-Version X.X | Created YYYY-MM-DD | Last Updated YYYY-MM-DD  
+\* Corresponding author and creator
 
-## Abstract
+### Abstract
 
-Brief description of the research project, including information about the question, study region(s), method(s), and main result(s).
+Write a brief abstract about your research project.
+If the project is a reproduction or replication study, include the full citation with a statement
+This study is a *reproduction/replication* of:
 
-### Keywords
+> citation to prior study
 
-Comma-separated list of keywords for searchability. Geographers often use one or two keywords each for: theory, geographic context, and methods.
+A graphical abstract of the study could also be included as an image here.
+
+### Study Metadata
+
+- `Key words`: Comma-separated list of keywords (tags) for searchability. Geographers often use one or two keywords each for: theory, geographic context, and methods.
+- `Subject`: select from the [BePress Taxonomy](http://digitalcommons.bepress.com/cgi/viewcontent.cgi?article=1008&context=reference)
+- `Date created`: date when project was started
+- `Date modified`: date of most recent revision
+- `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
+- `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
+- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
+- `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
+- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
+- `Funding Name`: name of funding for the project
+- `Funding Title`: title of project grant
+- `Award info URI`: web address for award information
+- `Award number`: award number
 
 ## Study design
 
-Is the study **observational**, **exploratory**, or testing one or more **hypotheses**? If testing hypotheses, specify the hypotheses here.
+Is the study design **observational**, **experimental**, **quasi-experimental**, **exploratory**,  **meta-analysis**, **reproduction**, **reanalysis**, or **replication**?
+Describe the study archetype here.
 
-The **spatial extent** of the study is...
-The **spatial scale / support** of the study is...
-The **temporal extent** of the study is...
-The **temporal support** of the study is...
+If testing **hypotheses** or investigating specific **research questions**, specify and number the hypotheses/questions here.
+
+If the study design includes subcomponents with different spatial or temporal characteristics than the overall study, or includes multi-level models, then enumerate the different subcomponents/levels and specify their spatial/temporal differences here.
 
 ## Materials and procedure
+
+### Computational environment
+
+Define the hardware, operating system, and software requirements for the research.
+Include citations to important software projects, plugins or packages and their versions.
 
 ### Data and variables
 
 Describe the **data sources** and **variables** to be used.
+Data sources may include plans for observing and recording **primary data** or descriptions of **secondary data**.
+For secondary data sources with numerous variables, the analysis plan authors may focus on documenting only the variables intended for use in the study.
 
-### Geographic characteristics
+Primary data sources for the study are to include ... .
+Secondary data sources for the study are to include ... .
 
-Describe the **temporal** and **geographic characteristics** of the study, including its **temporal extent**, **temporal granularity**, **coordinate reference systems** and **spatial extent**. Are there any **edge effects** or complications from integrating data with different **spatial supports** or **resolutions**?
+Each of the next subsections describes one data source.
+
+#### Primary data source1 name
+
+**Standard Metadata**
+
+- `Abstract`: Brief description of the data source
+- `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
+- `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
+- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
+- `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
+- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
+- `Lineage`: Describe and/or cite data sources and/or methodological steps planned to create this data source.
+  - sampling scheme, including spatial sampling
+  - target sample size and method for determining sample size
+  - stopping criteria for data collection and sampling (e.g. sample size, time elapsed)
+  - de-identification / anonymization
+- `Distribution`: Describe who will make the data available and how?
+- `Constraints`: Legal constraints for *access* or *use* to protect *privacy* or *intellectual property rights*
+- `Data Quality`: State any planned quality assessment
+- `Variables`: For each variable, enter the following information. If you have two or more variables per data source, you may want to present this information in table form (shown below)
+  - `Label`: variable name as used in the data or code
+  - `Alias`: intuitive natural language name
+  - `Definition`: Short description or definition of the variable. Include measurement units in description.
+  - `Type`: data type, e.g. character string, integer, real
+  - `Accuracy`: e.g. uncertainty of measurements
+  - `Domain`: Expected range of Maximum and Minimum of numerical data, or codes or categories of nominal data, or reference to a standard codebook
+  - `Missing Data Value(s)`: Values used to represent missing data and frequency of missing data observations
+  - `Missing Data Frequency`: Frequency of missing data observations: not yet known for data to be collected
+
+| Label | Alias | Definition | Type | Accuracy | Domain | Missing Data Value(s) | Missing Data Frequency |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| variable1 | ... | ... | ... | ... | ... | ... | ... |
+| variable2 | ... | ... | ... | ... | ... | ... | ... |
+
+#### Primary data source2 name
+
+... same form as above...
+
+#### Secondary data source1 name
+
+**Standard Metadata**
+
+- `Abstract`: Brief description of the data source
+- `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
+- `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
+- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
+- `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
+- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
+- `Lineage`: Describe and/or cite data sources and/or methodological steps used to create this data source
+- `Distribution`: Describe how the data is distributed, including any persistent identifier (e.g. DOI) or URL for data access
+- `Constraints`: Legal constraints for *access* or *use* to protect *privacy* or *intellectual property rights*
+- `Data Quality`: State result of quality assessment or state "Quality unknown"
+- `Variables`: For each variable, enter the following information. If you have two or more variables per data source, you may want to present this information in table form (shown below)
+  - `Label`: variable name as used in the data or code
+  - `Alias`: intuitive natural language name
+  - `Definition`: Short description or definition of the variable. Include measurement units in description.
+  - `Type`: data type, e.g. character string, integer, real
+  - `Accuracy`: e.g. uncertainty of measurements
+  - `Domain`: Range (Maximum and Minimum) of numerical data, or codes or categories of nominal data, or reference to a standard codebook
+  - `Missing Data Value(s)`: Values used to represent missing data and frequency of missing data observations
+  - `Missing Data Frequency`: Frequency of missing data observations
+
+| Label | Alias | Definition | Type | Accuracy | Domain | Missing Data Value(s) | Missing Data Frequency |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| variable1 | ... | ... | ... | ... | ... | ... | ... |
+| variable2 | ... | ... | ... | ... | ... | ... | ... |
+
+#### Secondary data source2 name
+
+... same form as above...
+
+### Prior observations  
+
+Prior experience with the study area, prior data collection, or prior observation of the data can compromise the validity of a study, e.g. through p-hacking.
+Therefore, disclose any prior experience or observations at the time of study pre-registration here, with example text below:
+
+At the time of this study pre-registration, the authors had _____ prior knowledge of the geography of the study region with regards to the ____ phenomena to be studied.
+This study is related to ____ prior studies by the authors
+
+For each primary data source, declare the extent to which authors had already engaged with the data:
+
+- [ ] no data collection has started
+- [ ] pilot test data has been collected, but will not be analyzed
+- [ ] data collection is in progress and data has not been observed
+- [ ] data collection is in progress and __% of data has been observed
+- [ ] data collection is complete and data has been observed. Explain how authors have already manipulated / explored the data.
+
+For each secondary source, declare the extent to which authors had already engaged with the data:
+
+- [ ] data is not available yet
+- [ ] data is available, but only metadata has been observed
+- [ ] metadata and descriptive statistics have been observed
+- [ ] metadata and a subset or sample of the full dataset have been observed
+- [ ] the full dataset has been observed. Explain how authors have already manipulated / explored the data.
+
+### Threats to validity
+
+Given the research design and primary data to be collected and/or secondary data to be used, discuss common threats to validity and the approach to mitigating those threats, with an emphasis on geographic threats to validity.
+
+These include:
+  - uneven primary data collection due to geographic inaccessibility or other constraints
+  - edge or boundary effects
+  - the modifiable areal unit problem
+  - nonstationarity
+  - spatial dependence or autocorrelation
+  - temporal dependence or autocorrelation
+  - spatial scale dependency
+  - spatial anisotropies
+  - confusion of spatial and a-spatial causation
+  - ecological fallacy
+  - uncertainty e.g. from spatial disaggregation, anonymization, differential privacy
 
 ### Data transformations
 
-Describe any **geographic** or **variable** transformations to be applied to data prior to the main analysis (preprocessing steps required to prepare the data for analysis). If any challenges with edge effects or conflicting spatial supports were identified above, enumerate steps to resolve the issues here.
+Describe all data transformations planned to prepare data sources for analysis.
+This section should explain with the fullest detail possible how to transform data from its raw state from the time of acquisition or observation to the main analysis, including steps to check and mitigate threats to validity.
+The method may anticipate contingencies, e.g. tests for normality and alternative decisions to make based on the results of the test.
+More specifically, all the **geographic** and **variable** transformations required to prepare input data as described in the data and variables section above to match the study's spatio-temporal characteristics as described in the study metadata and study design sections.
+Visual workflow diagrams may help communicate the methodology in this section.
 
-If any data is to be **excluded** from the analysis, explain the rationale and methods for exclusion.
+Examples of **geographic** transformations include coordinate system transformations, aggregation, disaggregation, spatial interpolation, distance calculations, zonal statistics, etc.
+
+Examples of **variable** transformations include standardization, normalization, constructed variables, imputation, classification, etc.
+
+Be sure to include any steps planned to **exclude** observations with missing or outlier data, to **group** observations by attribute or geographic criteria, or to **impute** missing data.
 
 ### Analysis
 
-Describe the main analysis of the study, e.g. the steps for testing the hypotheses or answering the main research questions.
+Describe the methods of analysis that will directly test the hypotheses or provide results to answer the research questions.
+This section should explicitly define any spatial / statistical models and their parameters, including significance thresholds.
+Also explain any follow-up analyses or validations.
 
 ## Results
 
-Objectively present the results of the study without additional interpretation.
+Describe how results are to be presented.
 
 ## Discussion
 
-Provide a summary the key findings of the study along with any limitations or areas in need of further investigation. If the study did not succeed as expected, discuss likely practical procedural and informative causes. Practical procedural causes relate to problems in the research procedures, e.g. challenges with data, code, or research parameters. Informative causes relate to problems with the referent geographic phenomena, e.g. absence of the theorized effect(s), change in population, or change in location.
+Describe how the results are to be interpreted *vis a vis* each hypothesis or research question.
 
-## Conclusions
+## Integrity Statement
 
-What are the broader implications of the research results for the environment or society? Do the results suggest the need for future research?
+Include an integrity statement - The authors of this preregistration state that they completed this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and research.
+If a prior registration *does* exist, explain the rationale for revising the registration here.
 
 ## References
