@@ -1,4 +1,4 @@
-# (Pre-analysis registration of OR Original Study Information for): Title of Study
+# Title of Study
 
 ### Authors
 
@@ -10,6 +10,7 @@
 ### Abstract
 
 Write a brief abstract about your research project.
+
 If the project is a reproduction or replication study, include the full citation with a statement
 This study is a *reproduction/replication* of:
 
@@ -32,17 +33,6 @@ A graphical abstract of the study could also be included as an image here.
 - `Funding Title`: title of project grant
 - `Award info URI`: web address for award information
 - `Award number`: award number
-
-If the study design includes subcomponents with different spatial or temporal characteristics than the overall study, or includes multi-level models, then enumerate the different subcomponents/levels and specify their spatial/temporal differences here.
-This may be best represented as a table, for example, a multilevel study with constant temporal coverage and temporal resolution but changing spatial extent and resolution might represent that metadata as follows:
-
-|   | Macro Level | Meso Level | Micro Level |
-| :--: | :--: | :--: | :--: |
-| Spatial Coverage | Continental U.S. | EPA Region 4 | Florida |
-| Spatial Resolution | EPA Regions (aggregations of states) | States (first admin level) | Counties (second admin level) |
-| Spatial Reference System | ESRI:102003 | ESRI:102003 | EPSG:3086
-
-If this is a reproduction, reanalysis, or replication study, include the next subsection about the original study:
 
 #### Original study metadata
 
