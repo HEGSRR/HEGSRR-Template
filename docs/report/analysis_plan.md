@@ -1,4 +1,4 @@
-# Title of Study : Pre-analysis Registration
+# (Pre-analysis registration of OR Original Study Information for): Title of Study
 
 ### Authors
 
@@ -17,7 +17,7 @@ This study is a *reproduction/replication* of:
 
 A graphical abstract of the study could also be included as an image here.
 
-### Study Metadata
+### Study metadata
 
 - `Key words`: Comma-separated list of keywords (tags) for searchability. Geographers often use one or two keywords each for: theory, geographic context, and methods.
 - `Subject`: select from the [BePress Taxonomy](http://digitalcommons.bepress.com/cgi/viewcontent.cgi?article=1008&context=reference)
@@ -33,14 +33,37 @@ A graphical abstract of the study could also be included as an image here.
 - `Award info URI`: web address for award information
 - `Award number`: award number
 
+If the study design includes subcomponents with different spatial or temporal characteristics than the overall study, or includes multi-level models, then enumerate the different subcomponents/levels and specify their spatial/temporal differences here.
+This may be best represented as a table, for example, a multilevel study with constant temporal coverage and temporal resolution but changing spatial extent and resolution might represent that metadata as follows:
+
+|   | Macro Level | Meso Level | Micro Level |
+| :--: | :--: | :--: | :--: |
+| Spatial Coverage | Continental U.S. | EPA Region 4 | Florida |
+| Spatial Resolution | EPA Regions (aggregations of states) | States (first admin level) | Counties (second admin level) |
+| Spatial Reference System | ESRI:102003 | ESRI:102003 | EPSG:3086
+
+If this is a reproduction, reanalysis, or replication study, include the next subsection about the original study:
+
+#### Original study metadata
+
+- `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
+- `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
+- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
+- `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
+- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
+
+
 ## Study design
 
 Is the study design **observational**, **experimental**, **quasi-experimental**, **exploratory**,  **meta-analysis**, **reproduction**, **reanalysis**, or **replication**?
 Describe the study archetype here.
 
-If testing **hypotheses** or investigating specific **research questions**, specify and number the hypotheses/questions here.
+If testing **hypotheses** or investigating specific **research questions**, specify and number the hypotheses/questions here, e.g.
 
-If the study design includes subcomponents with different spatial or temporal characteristics than the overall study, or includes multi-level models, then enumerate the different subcomponents/levels and specify their spatial/temporal differences here.
+> H1: Hypothesis number one
+
+
+
 
 ## Materials and procedure
 
@@ -141,7 +164,7 @@ This study is related to ____ prior studies by the authors
 For each primary data source, declare the extent to which authors had already engaged with the data:
 
 - [ ] no data collection has started
-- [ ] pilot test data has been collected, but will not be analyzed
+- [ ] pilot test data has been collected
 - [ ] data collection is in progress and data has not been observed
 - [ ] data collection is in progress and __% of data has been observed
 - [ ] data collection is complete and data has been observed. Explain how authors have already manipulated / explored the data.
@@ -151,8 +174,10 @@ For each secondary source, declare the extent to which authors had already engag
 - [ ] data is not available yet
 - [ ] data is available, but only metadata has been observed
 - [ ] metadata and descriptive statistics have been observed
-- [ ] metadata and a subset or sample of the full dataset have been observed
+- [ ] metadata and a pilot test subset or sample of the full dataset have been observed
 - [ ] the full dataset has been observed. Explain how authors have already manipulated / explored the data.
+
+If pilot test data has been collected or acquired, describe how the researchers observed and analyzed the pilot test, and the extent to which the pilot test influenced the research design.
 
 ### Threats to validity
 
