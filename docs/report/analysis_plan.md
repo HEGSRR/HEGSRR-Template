@@ -11,8 +11,10 @@
 
 Write a brief abstract about your research project.
 
-If the project is a reproduction or replication study, include the full citation with a statement
-This study is a *reproduction/replication* of:
+If the project is a reproduction or replication study, include a declaration of the study type with a full reference to the original study.
+For example:
+
+This study is a *replication* of:
 
 > citation to prior study
 
@@ -26,7 +28,7 @@ A graphical abstract of the study could also be included as an image here.
 - `Date modified`: date of most recent revision
 - `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
 - `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
-- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
+- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study, e.g. EPSG:4326
 - `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
 - `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
 - `Funding Name`: name of funding for the project
@@ -34,26 +36,21 @@ A graphical abstract of the study could also be included as an image here.
 - `Award info URI`: web address for award information
 - `Award number`: award number
 
-#### Original study metadata
+#### Original study spatio-temporal metadata
 
-- `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
-- `Spatial Resolution`: Specify the spatial resolution as a scale factor, description of the level of detail of each unit of observation (including administrative level of administrative areas), and/or or distance of a raster GRID size
-- `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
-- `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
-- `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
-
+- `Spatial Coverage`: extent of original study
+- `Spatial Resolution`: resolution of original study
+- `Spatial Reference System`: spatial reference system of original study
+- `Temporal Coverage`: temporal extent of original study
+- `Temporal Resolution`: temporal resolution of original study
 
 ## Study design
 
-Is the study design **observational**, **experimental**, **quasi-experimental**, **exploratory**,  **meta-analysis**, **reproduction**, **reanalysis**, or **replication**?
-Describe the study archetype here.
+Describe how the study relates to prior literature, e.g. is it a **original study**, **meta-analysis study**, **reproduction study**, **reanalysis study**, or **replication study**?
 
-If testing **hypotheses** or investigating specific **research questions**, specify and number the hypotheses/questions here, e.g.
+Also describe the original study archetype, e.g. is it **observational**, **experimental**, **quasi-experimental**, or **exploratory**?
 
-> H1: Hypothesis number one
-
-
-
+Enumerate specific **hypotheses** to be tested or **research questions** to be investigated here, and specify the type of method, statisical test or model to be used on the hypothesis or question.
 
 ## Materials and procedure
 
@@ -169,12 +166,13 @@ For each secondary source, declare the extent to which authors had already engag
 
 If pilot test data has been collected or acquired, describe how the researchers observed and analyzed the pilot test, and the extent to which the pilot test influenced the research design.
 
-### Threats to validity
+### Bias and threats to validity
 
 Given the research design and primary data to be collected and/or secondary data to be used, discuss common threats to validity and the approach to mitigating those threats, with an emphasis on geographic threats to validity.
 
 These include:
   - uneven primary data collection due to geographic inaccessibility or other constraints
+  - multiple hypothesis testing
   - edge or boundary effects
   - the modifiable areal unit problem
   - nonstationarity
