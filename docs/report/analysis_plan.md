@@ -50,7 +50,7 @@ Describe how the study relates to prior literature, e.g. is it a **original stud
 
 Also describe the original study archetype, e.g. is it **observational**, **experimental**, **quasi-experimental**, or **exploratory**?
 
-Enumerate specific **hypotheses** to be tested or **research questions** to be investigated here, and specify the type of method, statisical test or model to be used on the hypothesis or question.
+Enumerate specific **hypotheses** to be tested or **research questions** to be investigated here, and specify the type of method, statistical test or model to be used on the hypothesis or question.
 
 ## Materials and procedure
 
@@ -85,6 +85,7 @@ Each of the next subsections describes one data source.
   - target sample size and method for determining sample size
   - stopping criteria for data collection and sampling (e.g. sample size, time elapsed)
   - de-identification / anonymization
+  - experimental manipulation
 - `Distribution`: Describe who will make the data available and how?
 - `Constraints`: Legal constraints for *access* or *use* to protect *privacy* or *intellectual property rights*
 - `Data Quality`: State any planned quality assessment
@@ -187,8 +188,9 @@ These include:
 ### Data transformations
 
 Describe all data transformations planned to prepare data sources for analysis.
-This section should explain with the fullest detail possible how to transform data from its raw state from the time of acquisition or observation to the main analysis, including steps to check and mitigate threats to validity.
-The method may anticipate contingencies, e.g. tests for normality and alternative decisions to make based on the results of the test.
+This section should explain with the fullest detail possible how to transform data from the **raw** state at the time of acquisition or observation, to the pre-processed **derived** state ready for the main analysis.
+Including steps to check and mitigate sources of **bias** and **threats to validity**.
+The method may anticipate **contingencies**, e.g. tests for normality and alternative decisions to make based on the results of the test.
 More specifically, all the **geographic** and **variable** transformations required to prepare input data as described in the data and variables section above to match the study's spatio-temporal characteristics as described in the study metadata and study design sections.
 Visual workflow diagrams may help communicate the methodology in this section.
 
@@ -196,12 +198,12 @@ Examples of **geographic** transformations include coordinate system transformat
 
 Examples of **variable** transformations include standardization, normalization, constructed variables, imputation, classification, etc.
 
-Be sure to include any steps planned to **exclude** observations with missing or outlier data, to **group** observations by attribute or geographic criteria, or to **impute** missing data.
+Be sure to include any steps planned to **exclude** observations with *missing* or *outlier* data, to **group** observations by *attribute* or *geographic* criteria, or to **impute** missing data or apply spatial or temporal **interpolation**.
 
 ### Analysis
 
 Describe the methods of analysis that will directly test the hypotheses or provide results to answer the research questions.
-This section should explicitly define any spatial / statistical models and their parameters, including significance thresholds.
+This section should explicitly define any spatial / statistical *models* and their *parameters*, including *grouping* criteria, *weighting* criteria, and *significance thresholds*.
 Also explain any follow-up analyses or validations.
 
 ## Results
