@@ -1,0 +1,75 @@
+---
+title: "Analysis"
+author: "HEGSRR"
+output: html_document
+date: "2023-07-12"
+---
+
+In the section above, you can configure [options for this document](https://bookdown.org/yihui/rmarkdown/html-document.html), such as appearance, style, or a table of contents.
+
+Version 0.1.0 \| First Created July 12, 2023 \| Updated July 12, 2023
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <https://rmarkdown.rstudio.com/lesson-1.html>.
+
+
+# Computational environment
+
+```{r chunk setup, include = FALSE}
+# record all the packages you are using here
+# this includes any calls to library(), require(), 
+# and double colons such as here::i_am()
+packages = c("tidyverse", "here")
+
+# force all conflicts to become errors
+# if you load dplyr and use filter(), R has to guess whether you mean dplyr::filter() or stats::filter()
+# the conflicted package forces you to be explicit about this
+# disable at your own peril
+# https://conflicted.r-lib.org/
+require(conflicted)
+
+# load and install required packages
+# https://groundhogr.com/
+if(!require(groundhog)){
+  install.packages("groundhog")
+  require(groundhog)
+}
+
+# this date will be used to determine the versions of R and your packages
+# it is best practice to keep R and its packages up to date
+groundhog.day <- "2023-06-26"
+set.groundhog.folder("../../data/scratch/groundhog/")
+
+# this replaces any library() or require() calls
+groundhog.library(packages, groundhog.day)
+# you may need to install a correct version of R
+# you may need to respond OK in the console to permit groundhog to install packages
+# you may need to restart R and rerun this code to load installed packages
+# In RStudio, restart r with Session -> Restart Session
+
+# record the R processing environment
+writeLines(
+  capture.output(sessionInfo()),
+  here("procedure", "environment", paste0("r-environment-", Sys.Date(), ".txt"))
+)
+
+# set up default knitr parameters
+# https://yihui.org/knitr/options/
+knitr::opts_chunk$set(
+  echo = FALSE, # Run code, show outputs (don't show code)
+  fig.retina = 4,
+  fig.width = 8,
+  fig.path = paste0(here("results", "figures"), "/")
+)
+```
+
+# Example analysis
+
+```{r cars}
+summary(cars)
+```
+
+```{r pressure}
+plot(pressure)
+```
