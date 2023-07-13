@@ -64,12 +64,3 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Example analysis
-
-```{r cars}
-summary(cars)
-```
-
-```{r pressure}
-plot(pressure)
-```
