@@ -6,7 +6,7 @@
 - `Spatial Reference System`: Specify the geographic or projected coordinate system for the study
 - `Temporal Coverage`: Specify the temporal extent of your study---i.e. the range of time represented by the data observations.
 - `Temporal Resolution`: Specify the temporal resolution of your study---i.e. the duration of time for which each observation represents or the revisit period for repeated observations
-- `Lineage`: Describe and/or cite data sources and/or methodological steps planned to create this data source.
+- `Lineage`: Describe and/or cite data sources and/or methodological steps taken or planned to create this data source, e.g.:
   - sampling scheme, including spatial sampling
   - target sample size and method for determining sample size
   - stopping criteria for data collection and sampling (e.g. sample size, time elapsed)
