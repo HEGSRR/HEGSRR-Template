@@ -25,8 +25,30 @@ Backup of *.doc*
 .RDataTmp*
 .Rapp.history
 
-# Ignore Jupyter Notebook checkpoints
+# Jupyter Notebook
 .ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Byte-compiled / optimized / DLL files
+# https://github.com/github/gitignore/blob/main/Python.gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Python Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # General MacOS files
 .DS_Store
