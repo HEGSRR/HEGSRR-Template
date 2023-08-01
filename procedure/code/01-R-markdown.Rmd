@@ -73,9 +73,9 @@ Enumerate specific **hypotheses** to be tested or **research questions** to be i
 
 ```{r chunk setup, include = FALSE}
 # record all the packages you are using here
-# this includes any calls to library(), require(), 
+# this includes any calls to library(), require(),
 # and double colons such as here::i_am()
-packages = c("tidyverse", "here")
+packages <- c("tidyverse", "here")
 
 # force all conflicts to become errors
 # if you load dplyr and use filter(), R has to guess whether you mean dplyr::filter() or stats::filter()
@@ -86,7 +86,7 @@ require(conflicted)
 
 # load and install required packages
 # https://groundhogr.com/
-if(!require(groundhog)){
+if (!require(groundhog)) {
   install.packages("groundhog")
   require(groundhog)
 }
@@ -108,6 +108,9 @@ writeLines(
   capture.output(sessionInfo()),
   here("procedure", "environment", paste0("r-environment-", Sys.Date(), ".txt"))
 )
+
+# save package citations
+knitr::write_bib(c(packages, "base"), file = here("software.bib"))
 
 # set up default knitr parameters
 # https://yihui.org/knitr/options/
