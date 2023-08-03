@@ -219,4 +219,13 @@ Describe how the results are to be interpreted *vis a vis* each hypothesis or re
 Include an integrity statement - The authors of this preregistration state that they completed this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and research.
 If a prior registration *does* exist, explain the rationale for revising the registration here.
 
+## Acknowledgements
+
+- `Funding Name`: name of funding for the project
+- `Funding Title`: title of project grant
+- `Award info URI`: web address for award information
+- `Award number`: award number
+
+This report is based upon the template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences, DOI:[10.17605/OSF.IO/W29MQ](https://doi.org/10.17605/OSF.IO/W29MQ)
+
 ## References

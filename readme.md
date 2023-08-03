@@ -41,6 +41,7 @@ A graphical abstract of the study could also be included as an image here.
 - `Preprint`:
 - `Conference Presentation`:
 - `Publication`:
+- `Prior Study`:
 - `...`:
 
 ## Metadata for access
@@ -48,7 +49,7 @@ A graphical abstract of the study could also be included as an image here.
 - `Rights`: [LICENSE](LICENSE): BSD 3-Clause "New" or "Revised"
 - `Resource type`: Collection
 - `Resource language`: English
-- `Conforms to`: Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences, DOI:[10.17605/OSF.IO/W29MQ](https://doi.org/10.17605/OSF.IO/W29MQ )
+- `Conforms to`: Template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences version 1.0, DOI:[10.17605/OSF.IO/W29MQ](https://doi.org/10.17605/OSF.IO/W29MQ)
 
 ## Compendium structure and contents
 
@@ -60,9 +61,9 @@ This research compendium is structured with four main directories:
 - `results`: contains subdirectories for `figures`, formatted data `tables`, or `other` formats of research results.
 
 The data, procedures, and results of this repository are outlined in three tables:
-- Data: [data/data_metadata.csv](data/data_metadata.csv)
-- Procedures: [procedure/procedure_metadata.csv](procedure/procedure_metadata.csv)
-- Results: [results/results_metadata.csv](results/results_metadata.csv)
+- Data: [data/data_index.csv](data/data_index.csv)
+- Procedures: [procedure/procedure_index.csv](procedure/procedure_index.csv)
+- Results: [results/results_index.csv](results/results_index.csv)
 
 Important **documents** include:
 - Pre-analysis plan: [docs/report/preanalysis.pdf](docs/report/preanalysis.pdf)
