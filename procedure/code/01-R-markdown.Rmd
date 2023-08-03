@@ -2,27 +2,22 @@
 title: "Analysis"
 author: "HEGSRR"
 output: html_document
-date: "2023-07-12"
+date: "`r Sys.Date()`"
+output: pdf_document
+editor_options:
+  markdown:
+    wrap: sentence
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../../docs/report") })
 ---
 
-In the section above, you can configure [options for this document](https://bookdown.org/yihui/rmarkdown/html-document.html), such as appearance, style, or a table of contents.
+# Instructions
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
+For more details on using R Markdown see <https://rmarkdown.rstudio.com/lesson-1.html>.
+In the section above, you can configure [options for this document](https://bookdown.org/yihui/rmarkdown/html-document.html), including title, author(s), and additional style and output options.
+You may delete these instructions from your pre-analyis plan.
 
-Version 0.1.0 \| First Created July 12, 2023 \| Updated July 12, 2023
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <https://rmarkdown.rstudio.com/lesson-1.html>.
-
-# Title of Study
-
-### Authors
-
-- First Name Last Name\*, email address, @githubname, ORCID link, affiliated institution(s)
-- First Name Last Name, email address, @githubname, ORCID link, affiliated institution(s)
-
-\* Corresponding author and creator
-
-### Abstract
+# Abstract
 
 Write a brief abstract about your research project.
 
@@ -35,7 +30,7 @@ This study is a *replication* of:
 
 A graphical abstract of the study could also be included as an image here.
 
-### Study metadata
+# Study metadata
 
 - `Key words`: Comma-separated list of keywords (tags) for searchability. Geographers often use one or two keywords each for: theory, geographic context, and methods.
 - `Subject`: select from the [BePress Taxonomy](http://digitalcommons.bepress.com/cgi/viewcontent.cgi?article=1008&context=reference)
@@ -51,7 +46,7 @@ A graphical abstract of the study could also be included as an image here.
 - `Award info URI`: web address for award information
 - `Award number`: award number
 
-#### Original study spatio-temporal metadata
+## Original study spatio-temporal metadata
 
 - `Spatial Coverage`: extent of original study
 - `Spatial Resolution`: resolution of original study
@@ -59,7 +54,7 @@ A graphical abstract of the study could also be included as an image here.
 - `Temporal Coverage`: temporal extent of original study
 - `Temporal Resolution`: temporal resolution of original study
 
-## Study design
+# Study design
 
 Describe how the study relates to prior literature, e.g. is it a **original study**, **meta-analysis study**, **reproduction study**, **reanalysis study**, or **replication study**?
 
@@ -67,9 +62,9 @@ Also describe the original study archetype, e.g. is it **observational**, **expe
 
 Enumerate specific **hypotheses** to be tested or **research questions** to be investigated here, and specify the type of method, statistical test or model to be used on the hypothesis or question.
 
-## Materials and procedure
+# Materials and procedure
 
-### Computational environment
+## Computational environment
 
 ```{r chunk setup, include = FALSE}
 # record all the packages you are using here
@@ -122,7 +117,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-### Data and variables
+## Data and variables
 
 Describe the **data sources** and **variables** to be used.
 Data sources may include plans for observing and recording **primary data** or descriptions of **secondary data**.
@@ -133,7 +128,7 @@ Secondary data sources for the study are to include ... .
 
 Each of the next subsections describes one data source.
 
-#### Primary data source1 name
+### Primary data source1 name
 
 - `Title`: Title of data source
 - `Abstract`: Brief description of the data source
@@ -166,11 +161,11 @@ Each of the next subsections describes one data source.
 | variable1 | ... | ... | ... | ... | ... | ... | ... |
 | variable2 | ... | ... | ... | ... | ... | ... | ... |
 
-#### Primary data source2 name
+### Primary data source2 name
 
 ... same form as above...
 
-#### Secondary data source1 name
+### Secondary data source1 name
 
 - `Title`: Title of data source
 - `Abstract`: Brief description of the data source
@@ -198,11 +193,11 @@ Each of the next subsections describes one data source.
 | variable1 | ... | ... | ... | ... | ... | ... | ... |
 | variable2 | ... | ... | ... | ... | ... | ... | ... |
 
-#### Secondary data source2 name
+### Secondary data source2 name
 
 ... same form as above...
 
-### Prior observations  
+## Prior observations  
 
 Prior experience with the study area, prior data collection, or prior observation of the data can compromise the validity of a study, e.g. through p-hacking.
 Therefore, disclose any prior experience or observations at the time of study pre-registration here, with example text below:
@@ -228,7 +223,7 @@ For each secondary source, declare the extent to which authors had already engag
 
 If pilot test data has been collected or acquired, describe how the researchers observed and analyzed the pilot test, and the extent to which the pilot test influenced the research design.
 
-### Bias and threats to validity
+## Bias and threats to validity
 
 Given the research design and primary data to be collected and/or secondary data to be used, discuss common threats to validity and the approach to mitigating those threats, with an emphasis on geographic threats to validity.
 
@@ -246,7 +241,7 @@ These include:
   - ecological fallacy
   - uncertainty e.g. from spatial disaggregation, anonymization, differential privacy
 
-### Data transformations
+## Data transformations
 
 Describe all data transformations planned to prepare data sources for analysis.
 This section should explain with the fullest detail possible how to transform data from the **raw** state at the time of acquisition or observation, to the pre-processed **derived** state ready for the main analysis.
@@ -261,26 +256,26 @@ Examples of **variable** transformations include standardization, normalization,
 
 Be sure to include any steps planned to **exclude** observations with *missing* or *outlier* data, to **group** observations by *attribute* or *geographic* criteria, or to **impute** missing data or apply spatial or temporal **interpolation**.
 
-### Analysis
+## Analysis
 
 Describe the methods of analysis that will directly test the hypotheses or provide results to answer the research questions.
 This section should explicitly define any spatial / statistical *models* and their *parameters*, including *grouping* criteria, *weighting* criteria, and *significance thresholds*.
 Also explain any follow-up analyses or validations.
 
-## Results
+# Results
 
 Describe how results are to be presented.
 
-## Discussion
+# Discussion
 
 Describe how the results are to be interpreted *vis a vis* each hypothesis or research question.
 
-## Integrity Statement
+# Integrity Statement
 
 Include an integrity statement - The authors of this preregistration state that they completed this preregistration to the best of their knowledge and that no other preregistration exists pertaining to the same hypotheses and research.
 If a prior registration *does* exist, explain the rationale for revising the registration here.
 
-## Acknowledgements
+# Acknowledgements
 
 - `Funding Name`: name of funding for the project
 - `Funding Title`: title of project grant
@@ -289,4 +284,4 @@ If a prior registration *does* exist, explain the rationale for revising the reg
 
 This report is based upon the template for Reproducible and Replicable Research in Human-Environment and Geographical Sciences, DOI:[10.17605/OSF.IO/W29MQ](https://doi.org/10.17605/OSF.IO/W29MQ)
 
-## References
+# References
