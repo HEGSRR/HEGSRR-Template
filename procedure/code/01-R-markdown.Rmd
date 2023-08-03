@@ -99,6 +99,7 @@ groundhog.library(packages, groundhog.day)
 # In RStudio, restart r with Session -> Restart Session
 
 # record the R processing environment
+# alternatively, use devtools::session_info() for better results
 writeLines(
   capture.output(sessionInfo()),
   here("procedure", "environment", paste0("r-environment-", Sys.Date(), ".txt"))
