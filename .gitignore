@@ -49,6 +49,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pipfile*
 
 # General MacOS files
 .DS_Store
