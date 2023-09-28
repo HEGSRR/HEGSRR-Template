@@ -1,7 +1,6 @@
 ---
 title: "Analysis"
 author: "HEGSRR"
-output: html_document
 date: "`r Sys.Date()`"
 output: pdf_document
 editor_options:
