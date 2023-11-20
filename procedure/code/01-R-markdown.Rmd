@@ -65,7 +65,7 @@ Enumerate specific **hypotheses** to be tested or **research questions** to be i
 
 ## Computational environment
 
-```{r chunk setup, include = FALSE}
+```{r environment-setup, include = FALSE}
 # record all the packages you are using here
 # this includes any calls to library(), require(),
 # and double colons such as here::i_am()
