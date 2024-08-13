@@ -88,7 +88,6 @@ if (!require(groundhog)) {
 # this date will be used to determine the versions of R and your packages
 # it is best practice to keep R and its packages up to date
 groundhog.day <- "2023-06-26"
-set.groundhog.folder("../../data/scratch/groundhog/")
 
 # this replaces any library() or require() calls
 groundhog.library(packages, groundhog.day)
