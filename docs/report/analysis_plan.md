@@ -68,11 +68,10 @@ For secondary data sources with numerous variables, the analysis plan authors ma
 Primary data sources for the study are to include ... .
 Secondary data sources for the study are to include ... .
 
-Each of the next subsections describes one data source.
+Each of the next subsections describes one data source.   
+Complete standardized metadata for each data source. Either programmatically include standard metadata files into the analysis report or copy and fill out one metadata form (shown below for primary data source 1) for each data source.
 
 #### Primary data source1 name
-
-**Standard Metadata**
 
 - `Abstract`: Brief description of the data source
 - `Spatial Coverage`: Specify the geographic extent of your study. This may be a place name and link to a feature in a gazetteer like GeoNames or OpenStreetMap, or a well known text (WKT) representation of a bounding box.
